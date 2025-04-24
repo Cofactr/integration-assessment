@@ -6,13 +6,13 @@ You can choose to write this solution in any language you wish; however, JS or P
 ## Source API
 The only information you have on this is the endpoints themselves. Some exploration of the API might be required to fully understand what kind of data you are working with here.
 #### Source Endpoints
-`GET https://cofactr.pythonanywhere.com/source_api/products/?format_type=detailed|simple&page=int&limit=int`
-`GET https://cofactr.pythonanywhere.com/source_api/products/<str>/?view_type=optional[technical]`
-`GET https://cofactr.pythonanywhere.com/source_api/inventory-status/?ids=<str,str,str>`
+- `GET https://cofactr.pythonanywhere.com/source_api/products/?format_type=detailed|simple&page=int&limit=int`
+- `GET https://cofactr.pythonanywhere.com/source_api/products/<str>/?view_type=optional[technical]`
+- `GET https://cofactr.pythonanywhere.com/source_api/inventory-status/?ids=<str,str,str>`
 
 ## Target API
 #### Target Endpoints
-`POST https://cofactr.pythonanywhere.com/target_api/import/`
+- `POST https://cofactr.pythonanywhere.com/target_api/import/`
 
 ##### Authentication
 Requires an API key in the header: `Authorization: Bearer {api_key}`
