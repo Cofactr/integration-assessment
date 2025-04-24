@@ -19,7 +19,7 @@ Requires an API key in the header: `Authorization: Bearer {api_key}`
 For the interview, use: `test-api-key-12345`
 
 #### Request Format
-```json
+```javascript
 {
   "products": [
     {
@@ -55,7 +55,7 @@ For the interview, use: `test-api-key-12345`
 ```
 #### Response Format
 SUCCESS [200 OK]
-```json
+```javascript
 {
   "success": true,
   "importedCount": 5, // number of products successfully imported
@@ -63,7 +63,7 @@ SUCCESS [200 OK]
 }
 ```
 ERROR [400 BAD REQUEST]
-```json
+```javascript
 {
   "success": false,
   "importedCount": 0,
